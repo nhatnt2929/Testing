@@ -1,0 +1,93 @@
+PODS:
+  - Alamofire (4.9.1)
+  - KIF (3.7.9):
+    - KIF/Core (= 3.7.9)
+  - KIF/Core (3.7.9)
+  - Mockingjay (2.0.1):
+    - Mockingjay/Core (= 2.0.1)
+    - Mockingjay/XCTest (= 2.0.1)
+  - Mockingjay/Core (2.0.1):
+    - URITemplate (~> 2.0)
+  - Mockingjay/XCTest (2.0.1):
+    - Mockingjay/Core
+  - "NSObject+Rx (5.1.0)":
+    - RxSwift (~> 5.1)
+  - ObjectMapper (3.5.2)
+  - Reusable (4.1.1):
+    - Reusable/Storyboard (= 4.1.1)
+    - Reusable/View (= 4.1.1)
+  - Reusable/Storyboard (4.1.1)
+  - Reusable/View (4.1.1)
+  - RxAlamofire (5.1.0):
+    - RxAlamofire/Core (= 5.1.0)
+  - RxAlamofire/Core (5.1.0):
+    - Alamofire (~> 4.8)
+    - RxSwift (~> 5.0)
+  - RxBlocking (5.1.1):
+    - RxSwift (~> 5)
+  - RxCocoa (5.1.1):
+    - RxRelay (~> 5)
+    - RxSwift (~> 5)
+  - RxGesture (3.0.2):
+    - RxCocoa (~> 5.1)
+    - RxSwift (~> 5.1)
+  - RxRelay (5.1.1):
+    - RxSwift (~> 5)
+  - RxSwift (5.1.1)
+  - SwiftyJSON (5.0.0)
+  - Then (2.6.0)
+  - URITemplate (2.0.3)
+
+DEPENDENCIES:
+  - Alamofire
+  - KIF
+  - Mockingjay
+  - "NSObject+Rx"
+  - ObjectMapper
+  - Reusable
+  - RxAlamofire
+  - RxBlocking
+  - RxCocoa
+  - RxGesture
+  - RxSwift
+  - SwiftyJSON
+  - Then
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - KIF
+    - Mockingjay
+    - "NSObject+Rx"
+    - ObjectMapper
+    - Reusable
+    - RxAlamofire
+    - RxBlocking
+    - RxCocoa
+    - RxGesture
+    - RxRelay
+    - RxSwift
+    - SwiftyJSON
+    - Then
+    - URITemplate
+
+SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  KIF: 350f96fb4205972a10e4c1a45774d48b2d8482d8
+  Mockingjay: 11a621880d2887f1775bdcf824341eb68f218450
+  "NSObject+Rx": fa6bbcc1ab1faa06b01466bc09b1e0692bbc5946
+  ObjectMapper: b53ae947d370bf89423e86be7d4e2d2b2a8d3f40
+  Reusable: 53a9acf5c536f229b31b5865782414b508252ddb
+  RxAlamofire: a2d7621de4c23a0c6e7b476b504acc32838ee341
+  RxBlocking: 5f700a78cad61ce253ebd37c9a39b5ccc76477b4
+  RxCocoa: 32065309a38d29b5b0db858819b5bf9ef038b601
+  RxGesture: d6bd7447ca3a596c7a9702a6a2b6a2bb5d8bae54
+  RxRelay: d77f7d771495f43c556cbc43eebd1bb54d01e8e9
+  RxSwift: 81470a2074fa8780320ea5fe4102807cb7118178
+  SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
+  Then: 90cd104fd951cec1980a03f57704ad8f784d4d79
+  URITemplate: ace0c4c46dcf8afe6e89b4060621852886b15c3b
+
+PODFILE CHECKSUM: ee64d5f72366ba1c74d086d2ae00e7d833aa88b8
+
+COCOAPODS: 1.9.1

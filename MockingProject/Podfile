@@ -1,0 +1,27 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'MockingProject' do
+  use_frameworks!
+  pod 'RxSwift', '~> 5.1'
+	pod 'RxCocoa', '~> 5.1'
+  pod 'Reusable', '~> 4.1.1'
+  pod 'RxGesture', '~> 3.0.2'
+	pod 'RxBlocking', '~> 5.1.1'
+	pod 'KIF', '~> 3.7.9'
+  pod 'Mockingjay', '~> 2.1.0'
+  pod 'NSObject+Rx', '~> 5.1.0'
+  pod 'Alamofire', '~> 4.9.1'
+  pod 'RxAlamofire', '~> 5.1.0'
+  pod 'Then', '~> 2.6.0'
+  pod 'ObjectMapper', '~> 3.5.2'
+  pod 'SwiftyJSON', '~> 5.0.0'
+  
+  target 'MockingProjectTests' do
+    inherit! :search_paths
+  end
+
+  target 'MockingProjectUITests' do
+  end
+
+end

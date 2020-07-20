@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="NotoSansCJKjp-Regular.otf">
+            <string>NotoSansCJKjp-Regular</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Register View Controller-->
+        <scene sceneID="YIN-QT-YE3">
+            <objects>
+                <viewController storyboardIdentifier="RegisterViewController" id="fnC-mK-guz" customClass="RegisterViewController" customModule="MockingProject" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="1eP-pN-C9q">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yGY-hx-i2F">
+                                <rect key="frame" x="40" y="441" width="0.0" height="0.0"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="NotoSansCJKjp-Regular" family="Noto Sans CJK JP" pointSize="14"/>
+                                <color key="textColor" red="0.83529411760000005" green="0.48627450979999998" blue="0.63137254899999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="  Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="zTR-QB-HxP" customClass="TextField" customModule="MockingProject" customModuleProvider="target">
+                                <rect key="frame" x="40" y="190" width="334" height="43"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="43" id="NeK-fg-drA"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="emailAddress"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="0.5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" red="0.43921568630000002" green="0.43921568630000002" blue="0.43921568630000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="  Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="cYd-Fu-Gfs" customClass="PasswordTextField" customModule="MockingProject" customModuleProvider="target">
+                                <rect key="frame" x="40" y="286" width="334" height="43"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="43" id="Mav-eY-Vjy"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="0.5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" red="0.43921568630000002" green="0.43921568630000002" blue="0.43921568630000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Register" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EXM-6v-owG">
+                                <rect key="frame" x="40" y="74" width="216" height="72"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="72" id="ig6-oP-xSZ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Rockwell-Bold" family="Rockwell" pointSize="49"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OoG-Um-H1v">
+                                <rect key="frame" x="40" y="450" width="334" height="56"/>
+                                <color key="backgroundColor" red="0.91980725529999996" green="0.50682464230000002" blue="0.52292241510000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="56" id="69O-h0-CpP"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Galvji" family="Galvji" pointSize="16"/>
+                                <state key="normal" title="Register">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Email address" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NqR-vm-gYY">
+                                <rect key="frame" x="40" y="156" width="112.5" height="26"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="26" id="H3R-ob-oxC"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="16"/>
+                                <color key="textColor" red="0.27450980390000002" green="0.27450980390000002" blue="0.27450980390000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Password" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EVx-DP-YEG">
+                                <rect key="frame" x="40" y="253" width="76" height="26"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="26" id="tf2-Xu-365"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="16"/>
+                                <color key="textColor" red="0.27450980390000002" green="0.27450980390000002" blue="0.27450980390000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="  Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ETH-Ip-rgg" customClass="PasswordTextField" customModule="MockingProject" customModuleProvider="target">
+                                <rect key="frame" x="40" y="382" width="334" height="43"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="43" id="c6J-Tc-MDk"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="0.5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" red="0.43921568630000002" green="0.43921568630000002" blue="0.43921568630000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pcY-fR-Ra4">
+                                <rect key="frame" x="40" y="349" width="47.5" height="26"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="26" id="E8h-yt-ye7"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="16"/>
+                                <color key="textColor" red="0.27450980390000002" green="0.27450980390000002" blue="0.27450980390000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="pcY-fR-Ra4" firstAttribute="leading" secondItem="cYd-Fu-Gfs" secondAttribute="leading" id="0HR-b9-bWm"/>
+                            <constraint firstItem="pcY-fR-Ra4" firstAttribute="top" secondItem="cYd-Fu-Gfs" secondAttribute="bottom" constant="20" id="0IP-5c-4Fi"/>
+                            <constraint firstItem="OoG-Um-H1v" firstAttribute="width" secondItem="ETH-Ip-rgg" secondAttribute="width" id="4yN-X8-eSm"/>
+                            <constraint firstItem="OoG-Um-H1v" firstAttribute="centerX" secondItem="MCi-oX-aoQ" secondAttribute="centerX" id="88o-ij-hm4"/>
+                            <constraint firstItem="cYd-Fu-Gfs" firstAttribute="leading" secondItem="EVx-DP-YEG" secondAttribute="leading" id="8ZH-PU-0II"/>
+                            <constraint firstItem="cYd-Fu-Gfs" firstAttribute="width" secondItem="zTR-QB-HxP" secondAttribute="width" multiplier="0.233533" constant="256" id="A9N-d8-7xD"/>
+                            <constraint firstItem="zTR-QB-HxP" firstAttribute="centerX" secondItem="MCi-oX-aoQ" secondAttribute="centerX" id="Arx-2y-Man"/>
+                            <constraint firstItem="zTR-QB-HxP" firstAttribute="leading" secondItem="NqR-vm-gYY" secondAttribute="leading" id="BwV-5u-ESz"/>
+                            <constraint firstItem="cYd-Fu-Gfs" firstAttribute="top" secondItem="EVx-DP-YEG" secondAttribute="bottom" constant="7" id="Fsr-b2-F9P"/>
+                            <constraint firstItem="NqR-vm-gYY" firstAttribute="leading" secondItem="EXM-6v-owG" secondAttribute="leading" id="Ls8-xG-xRt"/>
+                            <constraint firstItem="ETH-Ip-rgg" firstAttribute="leading" secondItem="pcY-fR-Ra4" secondAttribute="leading" id="SRz-yb-6z8"/>
+                            <constraint firstItem="MCi-oX-aoQ" firstAttribute="trailing" secondItem="zTR-QB-HxP" secondAttribute="trailing" constant="40" id="Vun-3M-801"/>
+                            <constraint firstItem="ETH-Ip-rgg" firstAttribute="top" secondItem="pcY-fR-Ra4" secondAttribute="bottom" constant="7" id="Xc6-Vm-dcS"/>
+                            <constraint firstItem="EVx-DP-YEG" firstAttribute="leading" secondItem="zTR-QB-HxP" secondAttribute="leading" id="Ygh-mY-aNi"/>
+                            <constraint firstItem="EXM-6v-owG" firstAttribute="leading" secondItem="MCi-oX-aoQ" secondAttribute="leading" constant="40" id="cGp-AM-iqt"/>
+                            <constraint firstItem="NqR-vm-gYY" firstAttribute="top" secondItem="EXM-6v-owG" secondAttribute="bottom" constant="10" id="hzZ-GU-cmh"/>
+                            <constraint firstItem="EVx-DP-YEG" firstAttribute="top" secondItem="zTR-QB-HxP" secondAttribute="bottom" constant="20" id="k6M-Lm-HWe"/>
+                            <constraint firstItem="EXM-6v-owG" firstAttribute="top" secondItem="MCi-oX-aoQ" secondAttribute="top" constant="30" id="lU2-lv-YMC"/>
+                            <constraint firstItem="ETH-Ip-rgg" firstAttribute="width" secondItem="cYd-Fu-Gfs" secondAttribute="width" multiplier="0.16018" constant="280.5" id="oUy-cI-XG4"/>
+                            <constraint firstItem="OoG-Um-H1v" firstAttribute="top" secondItem="ETH-Ip-rgg" secondAttribute="bottom" constant="25" id="or4-MN-oqd"/>
+                            <constraint firstItem="zTR-QB-HxP" firstAttribute="top" secondItem="NqR-vm-gYY" secondAttribute="bottom" constant="8" id="ysr-ss-Ven"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="MCi-oX-aoQ"/>
+                    </view>
+                    <connections>
+                        <outlet property="emailTextField" destination="zTR-QB-HxP" id="uy2-c4-7VR"/>
+                        <outlet property="nameTextField" destination="ETH-Ip-rgg" id="sOR-dB-7f0"/>
+                        <outlet property="passTextField" destination="cYd-Fu-Gfs" id="fKW-D8-cn3"/>
+                        <outlet property="registerButton" destination="OoG-Um-H1v" id="SyU-Hp-CdL"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UQw-nd-QW9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-571.01449275362324" y="162.72321428571428"/>
+        </scene>
+    </scenes>
+</document>
